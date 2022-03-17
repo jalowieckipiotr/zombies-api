@@ -21,6 +21,8 @@
     "swagger-ui-express": "^4.3.0"
   },
   "devDependencies": {
-    "prettier": "2.6.0"
+    "jest": "^27.5.1",
+    "prettier": "2.6.0",
+    "supertest": "^6.2.2"
   }
 }
