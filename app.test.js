@@ -10,15 +10,6 @@ describe("GET /zombies", () => {
   });
 });
 
-describe("GET /zombies/{zombieId}", () => {
-  describe("get zombies", () => {
-    test("should respond with a 200 status code", async () => {
-      const response = await request(app).get("/zombies/6231dbe5b44b11d13fb77be4").send();
-      expect(response.statusCode).toBe(200);
-    });
-  });
-});
-
 describe("GET /items", () => {
   describe("get items", () => {
     test("should respond with a 200 status code", async () => {
