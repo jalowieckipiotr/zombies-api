@@ -85,7 +85,6 @@ const App = require("../controllers/controller.js");
  *         items: [{ "id": 1, "name": "Diamond Sword", "price": 100 }]
  */
 
-
 /**
  * @swagger
  * /zombies:
@@ -154,7 +153,6 @@ router.get("/:zombieId", App.findOne);
  *         description: Some server error
  */
 router.post("/", App.create);
-
 
 /**
  * @swagger
@@ -276,6 +274,5 @@ router.post("/item/:zombieId", App.addItem);
  *         description: Some server error
  */
 router.delete("/item/:zombieId", App.deleteItem);
-
 
 module.exports = router;
